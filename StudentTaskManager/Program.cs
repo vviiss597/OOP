@@ -70,3 +70,11 @@ switch (option)
         break;
 }
 
+List<string> tasks = new List<string>();
+//List<T>can store multiple vaules of the same type.
+
+tasks.Add("Review C# variables");
+tasks.Add("Practice loops");
+tasks.Add("Create a Console application");
+
+Console.WriteLine($"Number of tasks: {tasks.Count}");
