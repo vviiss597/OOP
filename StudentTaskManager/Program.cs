@@ -43,6 +43,57 @@ tasks.Add("Review C# variables");
 tasks.Add("Practice loops");
 tasks.Add("Create a Console application");
 
+//
+//
+
+void ShowTitle()
+{
+    Console.WriteLine();
+    Console.WriteLine("Student Task Manager");
+    Console.WriteLine("====================");
+}
+
+ShowTitle();
+
+//
+
+void ShowMessage(string message)
+{
+    Console.WriteLine($"[INFO] {message}");
+}
+
+ShowMessage("Application started.");
+ShowMessage("Task add.");
+
+//
+
+int GetTaskCount(List<string> tasks)
+{
+    return tasks.Count;
+}
+
+int count = GetTaskCount(tasks);
+Console.WriteLine($"You currently have {count} tasks.)");
+
+//
+
+void ShowTasks(List<string> tasks)
+{
+    if (tasks.Count == 0)
+    {
+        Console.WriteLine("No tasks available.");
+        return;
+    }
+
+    for (int i = 0 ; i < tasks.Count; i++)
+    {
+        Console.WriteLine($"{i+1}. {tasks[i]}");
+    }
+}
+
+//
+//
+
 bool running = true;
 while (running)
 {
@@ -65,10 +116,7 @@ while (running)
         break;
 
         case 2 : 
-        for (int i=0 ; i< tasks.Count ; i++)
-        {
-            Console.WriteLine($"{i+1}. {tasks[i]}");
-        }
+        ShowTasks(tasks);
         Console.WriteLine($"Total tasks: {tasks.Count}");
         Console.WriteLine();
         break;
@@ -98,3 +146,4 @@ while (running)
 
     }
 }
+
