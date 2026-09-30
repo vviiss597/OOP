@@ -34,41 +34,7 @@ else
     Console.WriteLine("Great progress!");
 }
 
-Console.WriteLine();
-Console.WriteLine("1. Add task");
-Console.WriteLine("2. View tasks");
-Console.WriteLine("3. Complete tasks");
-Console.WriteLine("4. Remove tasks");
-Console.WriteLine("0. Exit");
-
-Console.Write("Choose an option: ");
-int option = int.Parse(Console.ReadLine());
-
-switch (option)
-{
-    case 1:
-        Console.WriteLine("Adding a task...");
-        break;
-
-    case 2:
-        Console.WriteLine("Showing tasks...");
-        break;
-
-    case 3:
-        Console.WriteLine("Completing tasks...");
-        break;
-
-    case 4:
-        Console.WriteLine("Removing tasks...");
-        break;
-    case 0:
-        Console.WriteLine("Goodbye!");
-        break;
-
-    default:
-        Console.WriteLine("Invalid option.");
-        break;
-}
+Console.WriteLine("====================");
 
 List<string> tasks = new List<string>();
 //List<T>can store multiple vaules of the same type.
@@ -77,4 +43,58 @@ tasks.Add("Review C# variables");
 tasks.Add("Practice loops");
 tasks.Add("Create a Console application");
 
-Console.WriteLine($"Number of tasks: {tasks.Count}");
+bool running = true;
+while (running)
+{
+    Console.WriteLine();
+    Console.WriteLine("1. Add task");
+    Console.WriteLine("2. View tasks");
+    Console.WriteLine("3. Remove task");
+    Console.WriteLine("0. Exit");
+
+    Console.WriteLine("Choose: ");
+    int youroption = int.Parse(Console.ReadLine());
+    Console.WriteLine();
+
+    switch (youroption)
+    {
+        case 1 : 
+        Console.WriteLine("Enter task : ");
+        tasks.Add(Console.ReadLine());
+        Console.WriteLine("Task added.");
+        break;
+
+        case 2 : 
+        for (int i=0 ; i< tasks.Count ; i++)
+        {
+            Console.WriteLine($"{i+1}. {tasks[i]}");
+        }
+        Console.WriteLine($"Total tasks: {tasks.Count}");
+        Console.WriteLine();
+        break;
+
+        case 3 :
+        Console.WriteLine("Task to remove : ");
+        int remove = int.Parse(Console.ReadLine());
+        if (remove <= tasks.Count)
+        {
+            tasks.RemoveAt(remove -1);
+            Console.WriteLine("Task removed.");
+        }
+        else
+        {
+            Console.WriteLine("Invalid task number.");
+        }
+        break;
+
+        case 0 :
+        Console.WriteLine("Goodbye!");
+        running = false;
+        break;
+
+        default :
+        Console.WriteLine("Invalid option.");
+        break;
+
+    }
+}

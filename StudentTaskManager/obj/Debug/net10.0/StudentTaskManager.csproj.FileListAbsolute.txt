@@ -12,3 +12,4 @@ C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\refint\S
 C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.pdb
 C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.genruntimeconfig.cache
 C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\ref\StudentTaskManager.dll
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.sourcelink.json

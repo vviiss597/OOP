@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentTaskManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c1dc32c209ab4dd293724313f9c39d296c0a26c")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentTaskManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentTaskManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
