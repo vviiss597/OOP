@@ -71,6 +71,7 @@ int GetTaskCount(List<string> tasks)
 {
     return tasks.Count;
 }
+//int function--need to return a value
 
 int count = GetTaskCount(tasks);
 Console.WriteLine($"You currently have {count} tasks.)");
@@ -97,9 +98,20 @@ void ShowTasks(List<string> tasks)
 
 void AddTask(List<string> tasks)
 {
-    Console.WriteLine("Enter task : ");
-    tasks.Add(Console.ReadLine());
-    Console.WriteLine("Task added.");
+    
+    const int MaxTasks = 10;
+
+    if (tasks.Count >= MaxTasks)
+    {
+        Console.WriteLine("Maximum number of tasks reached.");
+    }
+    else
+    {
+        Console.WriteLine("Enter task : ");
+        tasks.Add(Console.ReadLine());
+        Console.WriteLine("Task added.");
+    }
+    
 }
 
 //
@@ -164,5 +176,30 @@ while (running)
         break;
 
     }
+}
+
+enum TaskPriority
+{
+    Low,
+    Medium,
+    High
+}
+
+TaskPriority priority = TaskPriority.High;
+Console.WriteLine(priority);
+
+switch (priority)
+{
+    case TaskPriority.Low:
+        Console.WriteLine("This task can wait.");
+        break;
+
+    case TaskPriority.Medium:
+        Console.WriteLine("Try to finish this task today.");
+        break;
+
+    case TaskPriority.High:
+        Console.WriteLine("Prioritize this task.");
+        break;
 }
 
