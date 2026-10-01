@@ -74,7 +74,7 @@ int GetTaskCount(List<string> tasks)
 //int function--need to return a value
 
 int count = GetTaskCount(tasks);
-Console.WriteLine($"You currently have {count} tasks.)");
+Console.WriteLine($"You currently have {count} tasks.");
 
 //
 
@@ -137,6 +137,7 @@ int ShowMenu()
     Console.WriteLine("1. Add task");
     Console.WriteLine("2. View tasks");
     Console.WriteLine("3. Remove task");
+    Console.WriteLine("4. Show task count");
     Console.WriteLine("0. Exit");
 
     Console.WriteLine("Choose: ");
@@ -144,6 +145,17 @@ int ShowMenu()
     Console.WriteLine();
     return youroption;
 }
+//
+    void ShowTaskCount(List<string> tasks)
+    {
+        int capacity = 10 - tasks.Count;
+        Console.WriteLine($"You currently have {tasks.Count} tasks. ");
+        Console.WriteLine($"Maximum allowed: 10");
+        Console.WriteLine($"Remaining capacity: {capacity}");
+        Console.WriteLine();
+    }
+
+
 //
 //
 
@@ -166,6 +178,10 @@ while (running)
         RemoveTask(tasks);
         break;
 
+        case 4 :
+        ShowTaskCount(tasks);
+        break;
+
         case 0 :
         Console.WriteLine("Goodbye!");
         running = false;
@@ -178,12 +194,7 @@ while (running)
     }
 }
 
-enum TaskPriority
-{
-    Low,
-    Medium,
-    High
-}
+Console.WriteLine("----------------------------");
 
 TaskPriority priority = TaskPriority.High;
 Console.WriteLine(priority);
@@ -203,3 +214,9 @@ switch (priority)
         break;
 }
 
+enum TaskPriority
+{
+    Low,
+    Medium,
+    High
+}
