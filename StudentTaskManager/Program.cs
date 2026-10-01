@@ -89,13 +89,37 @@ void ShowTasks(List<string> tasks)
     {
         Console.WriteLine($"{i+1}. {tasks[i]}");
     }
+    Console.WriteLine($"Total tasks: {tasks.Count}");
+    Console.WriteLine();
 }
 
 //
-//
 
-bool running = true;
-while (running)
+void AddTask(List<string> tasks)
+{
+    Console.WriteLine("Enter task : ");
+    tasks.Add(Console.ReadLine());
+    Console.WriteLine("Task added.");
+}
+
+//
+void RemoveTask(List<string> tasks)
+{
+    Console.WriteLine("Task to remove : ");
+    int remove = int.Parse(Console.ReadLine());
+    if (remove <= tasks.Count)
+    {
+        tasks.RemoveAt(remove -1);
+        Console.WriteLine("Task removed.");
+    }
+    else
+    {
+        Console.WriteLine("Invalid task number.");
+    }
+}
+
+//*****
+int ShowMenu()
 {
     Console.WriteLine();
     Console.WriteLine("1. Add task");
@@ -106,33 +130,28 @@ while (running)
     Console.WriteLine("Choose: ");
     int youroption = int.Parse(Console.ReadLine());
     Console.WriteLine();
+    return youroption;
+}
+//
+//
+
+bool running = true;
+while (running)
+{
+    int youroption = ShowMenu();
 
     switch (youroption)
     {
         case 1 : 
-        Console.WriteLine("Enter task : ");
-        tasks.Add(Console.ReadLine());
-        Console.WriteLine("Task added.");
+        AddTask(tasks);
         break;
 
         case 2 : 
         ShowTasks(tasks);
-        Console.WriteLine($"Total tasks: {tasks.Count}");
-        Console.WriteLine();
         break;
 
         case 3 :
-        Console.WriteLine("Task to remove : ");
-        int remove = int.Parse(Console.ReadLine());
-        if (remove <= tasks.Count)
-        {
-            tasks.RemoveAt(remove -1);
-            Console.WriteLine("Task removed.");
-        }
-        else
-        {
-            Console.WriteLine("Invalid task number.");
-        }
+        RemoveTask(tasks);
         break;
 
         case 0 :
