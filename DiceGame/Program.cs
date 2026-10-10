@@ -1,8 +1,4 @@
-﻿
-
-using System.Runtime.InteropServices;
-
-Console.WriteLine("Dice Game!");
+﻿Console.WriteLine("Dice Game!");
 Console.WriteLine("======================");
 
 Console.WriteLine("Press any key to roll the dice...");
