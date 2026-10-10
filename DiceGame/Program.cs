@@ -7,7 +7,7 @@ Console.ReadKey();
 void RollDice()
 {
     Random rand = new Random();
-    int you = rand.Next(1, 7);
+    int you = rand.Next(1, 7);  // (1, 7]
     int computer = rand.Next(1, 7);
 
     Console.WriteLine("You rolled: " +you);

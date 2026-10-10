@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\bin\Debug\net10.0\StudentInformation.exe
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\bin\Debug\net10.0\StudentInformation.deps.json
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\bin\Debug\net10.0\StudentInformation.runtimeconfig.json
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\bin\Debug\net10.0\StudentInformation.dll
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\bin\Debug\net10.0\StudentInformation.pdb
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.sourcelink.json
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.dll
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\refint\StudentInformation.dll
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.pdb
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\StudentInformation.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\OOP\StudentInformation\obj\Debug\net10.0\ref\StudentInformation.dll
