@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\bin\Debug\net10.0\StudentTaskManager.exe
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\bin\Debug\net10.0\StudentTaskManager.deps.json
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\bin\Debug\net10.0\StudentTaskManager.runtimeconfig.json
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\bin\Debug\net10.0\StudentTaskManager.dll
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\bin\Debug\net10.0\StudentTaskManager.pdb
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.dll
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\refint\StudentTaskManager.dll
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.pdb
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\ref\StudentTaskManager.dll
+C:\Users\User\Documents\GitHub\OOP\StudentTaskManager\obj\Debug\net10.0\StudentTaskManager.sourcelink.json
