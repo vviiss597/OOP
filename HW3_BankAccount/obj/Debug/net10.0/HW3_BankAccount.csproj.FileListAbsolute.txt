@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\bin\Debug\net10.0\HW3_BankAccount.exe
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\bin\Debug\net10.0\HW3_BankAccount.deps.json
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\bin\Debug\net10.0\HW3_BankAccount.runtimeconfig.json
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\bin\Debug\net10.0\HW3_BankAccount.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\bin\Debug\net10.0\HW3_BankAccount.pdb
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.sourcelink.json
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\refint\HW3_BankAccount.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.pdb
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\HW3_BankAccount.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_BankAccount\obj\Debug\net10.0\ref\HW3_BankAccount.dll
