@@ -9,6 +9,7 @@ Console.WriteLine("================================");
 Console.WriteLine("Press any key to continue...");
 Console.ReadKey();
 
+//Imperative命令式
 bool running = true;
 while (running)
 {
@@ -24,20 +25,26 @@ while (running)
         {   
             grades.Add(grade);
             Console.WriteLine($"You have entered {grades.Count} grades.");
+            Console.WriteLine("-----------------------------------------");
         }
         
     }
     else
     {
-        Console.WriteLine("You have already entered 5 grades. Please press Enter to finish.");
+        Console.WriteLine("===========================");
+        Console.WriteLine("You have already entered 5 grades.");
+        Console.WriteLine("Please press Enter to finish.");
         Console.ReadKey();
         running =false;
     }
 }
 
+//Declarative宣告式
 int maxgrade = grades.Max();
 int mingrade = grades.Min();
 double averagegrade = grades.Average();
 
 
-Console.WriteLine($"The maximum grade is: {maxgrade}");
+Console.WriteLine($"Maximum grade: {maxgrade}");
+Console.WriteLine($"Minium grade: {mingrade}");
+Console.WriteLine($"Average grade: {averagegrade}");
