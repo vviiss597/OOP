@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InheritanceMinigame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07e8d1058bb60e96b7e6b26337e42627535333a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a54c598b5326d1a0adf7fef9283c8d27d92f7837")]
 [assembly: System.Reflection.AssemblyProductAttribute("InheritanceMinigame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InheritanceMinigame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

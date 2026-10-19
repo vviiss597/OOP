@@ -1,6 +1,6 @@
 namespace InheritanceMinigame.Classes
 { 
-    public class Mage : Character
+    public sealed class Mage : Character
     {
         public int Mana {get; private set;}=50;
         //private set --> can only write it in the class

@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using InheritanceMinigame.Classes;
 
+//Character hero = new Character("Hero", 100, 10);
+//c.TaskDamage(20);
+//c.PerformAttack(null);
+
+Character player = new Warrior("Aragorn");
+player.PerformAttack(new Mage("Merlin"));
 
 namespace InheritanceMinigame
 {
@@ -19,16 +25,65 @@ namespace InheritanceMinigame
             Console.WriteLine("\nChoose your class:");
             Console.WriteLine("1. Warrior (High Health, Blocks Damage)");
             Console.WriteLine("2. Mage (Fragile, Deals Massive Fireball Damage)");
-            Console.Write("Selection (1 or 2): ");
+           
+            Console.Write("Selection (1 or 2 ): ");
             string? choice = Console.ReadLine();
             
             Character player;
 
             if (choice == "2")
+            {
                 player = new Mage(heroName);
+            }   
             else
-                player = new Warrior(heroName);
+            {
+                Console.WriteLine("\nChoose your Warroir:");
+                Console.WriteLine("1. Warrior" );
+                Console.WriteLine("2. EliteWarrior");
+                Console.Write("Selection (1 or 2 ): ");
+                string? Choice = Console.ReadLine();
+                /*
+                    Console.WriteLine("\nDo you want an EliteWarroir: pressY or no");
 
+                */
+                if (Choice =="1")
+                player = new Warrior(heroName);
+                else
+                player = new EliteWarrior(heroName);
+            }
+
+            ////step5: show 2 ways to use "is"
+            //1
+            if (player is Mage)
+            {
+                Console.WriteLine("This character is a mage.");
+            }
+            else
+            {
+                Console.WriteLine("This character is not a mage.");
+            }
+            //2 warrior redeclear
+            if (player is Warrior warrior)
+            {
+                Console.WriteLine($"{warrior.Name} has a shield block of {warrior.ShieldBlock}.");
+            }
+
+            /////next step: "as" -->first define and then ask
+            /// nullable
+            //"?" --> should be added
+            Mage? mage = player as Mage;
+
+            if (mage != null)
+            {
+                Console.WriteLine($"{mage.Name} is a mage with {mage.Mana} mana.");
+            }
+            else
+            {
+                Console.WriteLine("The player is not a Mage.");
+            }   
+
+            ///
+            
             //Goblin and Dragon inherit from character
             //they can live inside a single collection
             Queue<Character> dungeonEnemies = new Queue<Character>();
