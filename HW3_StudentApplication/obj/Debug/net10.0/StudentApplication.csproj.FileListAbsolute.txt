@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\bin\Debug\net10.0\StudentApplication.exe
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\bin\Debug\net10.0\StudentApplication.deps.json
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\bin\Debug\net10.0\StudentApplication.runtimeconfig.json
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\bin\Debug\net10.0\StudentApplication.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\bin\Debug\net10.0\StudentApplication.pdb
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.sourcelink.json
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\refint\StudentApplication.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.pdb
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\StudentApplication.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_StudentApplication\obj\Debug\net10.0\ref\StudentApplication.dll
