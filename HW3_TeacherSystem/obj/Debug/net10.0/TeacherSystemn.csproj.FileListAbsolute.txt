@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\bin\Debug\net10.0\TeacherSystemn.exe
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\bin\Debug\net10.0\TeacherSystemn.deps.json
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\bin\Debug\net10.0\TeacherSystemn.runtimeconfig.json
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\bin\Debug\net10.0\TeacherSystemn.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\bin\Debug\net10.0\TeacherSystemn.pdb
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.sourcelink.json
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\refint\TeacherSystemn.dll
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.pdb
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\TeacherSystemn.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\OOP\HW3_TeacherSystem\obj\Debug\net10.0\ref\TeacherSystemn.dll
